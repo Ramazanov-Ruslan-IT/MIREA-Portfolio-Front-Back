@@ -13,7 +13,7 @@ export default function MainBlock() {
                         <p>Меня зовут Рамазанов Руслан и я начинающий специалист по веб-разработке</p>
                     </div>
                     <div className="profile-pic">
-                        <img src=""/>
+                        <img src="https://via.placeholder.com/200x150"/>
                     </div>
                 </div>
 
