@@ -1,0 +1,64 @@
+/* Content.css */
+
+.container-content {
+    display: flex;
+    max-width: 1200px;
+    min-height: 83vh;
+    background-color: white;
+    border-left: 1px solid #683f64;
+    border-right: 1px solid #683f64;
+}
+
+.content {
+    padding: 20px;
+    width: 1000px;
+}
+
+/* Адаптивные стили */
+
+/* Для экранов от 1920px */
+@media (1921px <= width)  {
+    .container-content {
+        width: 100vw;
+        padding: 10px;
+    }
+}
+
+/* Для экранов до 1920px от 1440px */
+@media (1920px <= width <= 1441px) {
+    .container-content {
+        width: 100vw;
+        padding: 10px;
+    }
+}
+
+/* Для экранов до 1440px от 1024px */
+@media (1440px <= width <= 1025px) {
+    .container-content {
+        width: 100vw;
+        padding: 10px;
+    }
+}
+
+/* Для экранов до 1024px от 768px */
+@media (1024px <= width <= 769px) {
+    .container-content {
+        width: 100vw;
+        padding: 10px;
+    }
+}
+
+/* Для экранов до 768px от 390px */
+@media (768px <= width <= 391px) {
+    .container-content {
+        width: 100vw;
+        padding: 5px;
+    }
+}
+
+/* Для экранов до 390px */
+@media (390px <= width) {
+    .container-content {
+        padding: 5px;
+    }
+}

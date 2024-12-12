@@ -1,0 +1,58 @@
+/* Footer.css */
+
+footer {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    background-color: white;
+    font-size: 14px;
+    border: 1px solid #683f64;
+}
+
+/* Адаптивные стили */
+
+/* Для экранов от 1920px */
+@media (1921px <= width) {
+    footer {
+        padding: 15px;
+        font-size: 16px;
+    }
+}
+
+/* Для экранов до 1920px от 1440px */
+@media (1920px <= width <= 1441px) {
+    footer {
+        padding: 12px;
+        font-size: 15px;
+    }
+}
+
+/* Для экранов до 1440px от 1024px */
+@media (1440px <= width <= 1025px) {
+    footer {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+/* Для экранов до 1024px от 768px */
+@media (1024px <= width <= 769px) {
+    footer {
+        padding: 10px;
+        font-size: 13px;
+    }
+}
+
+/* Для экранов до 768px от 390px */
+@media (768px <= width <= 391px) {
+    footer {
+        padding: 8px;
+        font-size: 12px;
+    }
+}
+
+/* Для экранов до 390px */
+@media (390px <= width) {
+
+}

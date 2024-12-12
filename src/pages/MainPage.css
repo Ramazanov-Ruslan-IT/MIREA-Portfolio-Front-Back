@@ -1,0 +1,73 @@
+/* MainPage.css */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:host, html {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    font-family:
+            Open Sans,
+            ui-sans-serif,
+            system-ui,
+            sans-serif,
+            Apple Color Emoji,
+            Segoe UI Emoji,
+            Segoe UI Symbol,
+            Noto Color Emoji;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+}
+
+/* Базовый стиль для body */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    background-color: #f4f4f4;
+}
+
+/* Для экранов от 1920px */
+@media (1921px <= width)  {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Для экранов до 1920px от 1440px */
+@media (1920px <= width <= 1441px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Для экранов до 1440px от 1024px */
+@media (1440px <= width <= 1025px) {
+    body {
+        font-size: 15px;
+    }
+}
+
+/* Для экранов до 1024px от 768px */
+@media (1024px <= width <= 769px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Для экранов до 768px от 390px */
+@media (768px <= width <= 391px) {
+    body {
+        font-size: 13px;
+    }
+}
+
+/* Для экранов до 390px */
+@media (390px <= width) {
+
+}

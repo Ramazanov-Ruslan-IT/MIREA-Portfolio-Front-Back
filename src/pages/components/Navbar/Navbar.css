@@ -1,0 +1,64 @@
+.container-navbar {
+    display: flex;
+    width: 100%;
+    max-width: 1400px;
+    background-color: white;
+    border-left: 1px solid #683f64;
+    border-right: 1px solid #683f64;
+    border-bottom: 1px solid #683f64;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+nav a:hover {
+    color: gray;
+}
+
+nav a.active {
+    color: #683f64;
+    font-weight: bold;
+}
+
+/* Адаптивные стили */
+
+/* Для экранов от 1920px */
+@media (1921px <= width) {
+
+}
+
+/* Для экранов до 1920px от 1440px */
+@media (1920px <= width <= 1441px){
+
+}
+
+/* Для экранов до 1440px от 1024px */
+@media (1440px <= width <= 1025px) {
+
+}
+
+/* Для экранов до 1024px от 768px */
+@media (1024px <= width <= 769px) {
+
+}
+
+/* Для экранов до 768px от 390px */
+@media (768px <= width <= 391px) {
+
+}
+
+/* Для экранов до 390px */
+@media (390px <= width) {
+
+}

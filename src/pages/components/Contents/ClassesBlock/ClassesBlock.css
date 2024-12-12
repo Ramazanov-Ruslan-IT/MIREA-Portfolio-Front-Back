@@ -1,0 +1,99 @@
+/* ClassesBlock.css */
+
+table {
+    align-items: center;
+    border: 4px #3b3b3b;
+    text-align-last: center;
+    width: 100%;
+}
+
+table tbody tr:hover {
+    background-color: #efefef;
+    cursor: pointer;
+}
+
+.map {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+}
+
+.object-1 {
+    width: 100%;
+    height: 720px;
+}
+
+
+
+/* Адаптивные стили */
+
+/* Для экранов от 1920px */
+@media (1921px <= width) {
+    .content {
+        padding: 30px;
+    }
+    .map {
+        height: 500px;
+    }
+    .object-1 {
+        height: 800px;
+    }
+}
+
+/* Для экранов до 1920px от 1440px */
+@media (1920px <= width <= 1441px) {
+    .content {
+        padding: 25px; /* Умеренное увеличение отступов */
+    }
+    .map {
+        height: 450px; /* Умеренное увеличение высоты карты */
+    }
+    .object-1 {
+        height: 750px; /* Умеренное увеличение высоты объекта */
+    }
+}
+
+/* Для экранов до 1440px от 1024px */
+@media (1440px <= width <= 1025px) {
+    .content {
+        padding: 20px; /* Оставить отступы прежними */
+    }
+    .map {
+        height: 400px; /* Высота карты остается прежней */
+    }
+    .object-1 {
+        height: 720px; /* Высота объекта остается прежней */
+    }
+}
+
+/* Для экранов до 1024px от 768px */
+@media (1024px <= width <= 769px) {
+    .content {
+        padding: 15px; /* Уменьшение отступов */
+    }
+    .map {
+        height: 350px; /* Уменьшение высоты карты */
+    }
+    .object-1 {
+        height: 600px; /* Уменьшение высоты объекта */
+    }
+}
+
+/* Для экранов до 768px от 390px */
+@media (768px <= width <= 391px)  {
+    .content {
+        padding: 10px; /* Уменьшение отступов */
+    }
+    .map {
+        height: 300px; /* Уменьшение высоты карты */
+    }
+    .object-1 {
+        height: 500px; /* Уменьшение высоты объекта */
+    }
+}
+
+/* Для экранов до 390px */
+@media (390px <= width) {
+
+}

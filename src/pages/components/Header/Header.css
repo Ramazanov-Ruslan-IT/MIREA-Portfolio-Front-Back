@@ -1,0 +1,110 @@
+/* Header.css */
+
+header {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #683f64;
+}
+
+.logo {
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+.logo-img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 20%;
+}
+
+.logo-title {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.group-info {
+    text-align: right;
+    font-size: 15px;
+}
+
+/* Адаптивные стили */
+
+/* Для экранов от 1920px */
+@media (1921px <= width) {
+    header {
+        padding: 15px;
+    }
+    .logo-title {
+        font-size: 16px;
+    }
+    .group-info {
+        font-size: 17px;
+    }
+}
+
+/* Для экранов до 1920px от 1440px */
+@media (1920px <= width <= 1441px) {
+    header {
+        padding: 12px;
+    }
+    .logo-title {
+        font-size: 15px;
+    }
+    .group-info {
+        font-size: 16px;
+    }
+}
+
+/* Для экранов до 1440px от 1024px */
+@media (1440px <= width <= 1025px) {
+    header {
+        padding: 10px;
+    }
+    .logo-title {
+        font-size: 14px;
+    }
+    .group-info {
+        font-size: 15px;
+    }
+}
+
+/* Для экранов до 1024px от 768px */
+@media (1024px <= width <= 769px) {
+    header {;
+        padding: 8px;
+    }
+    .logo-title {
+        font-size: 13px;
+    }
+    .group-info {
+        font-size: 14px;
+    }
+}
+
+/* Для экранов до 768px от 390px */
+@media (768px <= width <= 391px) {
+    header {
+        padding: 5px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logo-title {
+        font-size: 12px;
+    }
+    .group-info {
+        font-size: 12px;
+        text-align: left;
+    }
+}
+
+/* Для экранов до 390px */
+@media (390px <= width) {
+
+}

@@ -1,0 +1,97 @@
+/* Sidebar.css */
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-right: 1px solid #683f64;
+    background-color: white;
+}
+
+.sidebar p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+.sidebar ul li a:hover {
+    color: gray;
+}
+
+/* Адаптивные стили */
+
+/* Для экранов от 1920px */
+@media (1921px <= width) {
+    .sidebar {
+        padding: 30px;
+    }
+    .sidebar ul li a {
+        font-size: 19px;
+    }
+}
+
+/* Для экранов до 1920px от 1440px */
+@media (1920px <= width <= 1441px) {
+    .sidebar {
+        padding: 25px;
+    }
+    .sidebar ul li a {
+        font-size: 18px;
+    }
+}
+
+/* Для экранов до 1440px от 1024px */
+@media (1440px <= width <= 1025px) {
+    .sidebar {
+        padding: 20px;
+    }
+    .sidebar ul li a {
+        font-size: 16px;
+    }
+}
+
+/* Для экранов до 1024px от 768px */
+@media (1024px <= width <= 769px) {
+    .sidebar {
+        padding: 15px;
+    }
+    .sidebar ul li a {
+        font-size: 15px;
+    }
+}
+
+/* Для экранов до 768px от 390px */
+@media (768px <= width <= 391px) {
+    .sidebar {
+        padding: 10px;
+    }
+    .sidebar ul li a {
+        font-size: 14px;
+    }
+    .sidebar ul li {
+        margin-bottom: 8px;
+    }
+}
+
+/* Для экранов до 390px */
+@media (390px <= width) {
+
+}

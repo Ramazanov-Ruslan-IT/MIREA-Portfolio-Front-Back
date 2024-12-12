@@ -1,0 +1,118 @@
+/* Modal.css */
+
+.modal {
+    cursor: move;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+}
+
+.label {
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.name-input, .email-input, .number-input, .language-input, .comment-input, .submit-button {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-item-agreement-user-data {
+    display: flex;
+    padding-top: 5px;
+}
+
+.submit-button:hover {
+    background-color: #bdbdbd;
+}
+
+/* Адаптивные стили */
+
+/* Для экранов от 1920px */
+@media (1921px <= width) {
+    .modal-content {
+        width: 80%;
+    }
+    .close {
+        font-size: 32px;
+    }
+}
+
+/* Для экранов до 1920px от 1440px */
+@media (1920px <= width <= 1441px) {
+    .modal-content {
+        width: 90%;
+    }
+    .close {
+        font-size: 30px;
+    }
+}
+
+/* Для экранов до 1440px от 1024px */
+@media (1440px <= width <= 1025px) {
+    .modal-content {
+        width: 95%;
+    }
+    .close {
+        font-size: 28px;
+    }
+}
+
+/* Для экранов до 1024px от 768px */
+@media (1024px <= width <= 769px) {
+    .modal-content {
+        width: 100%;
+    }
+    .close {
+        font-size: 26px;
+    }
+    .name-input, .email-input, .number-input, .language-input, .comment-input, .submit-button {
+        font-size: 0.9rem;
+    }
+}
+
+/* Для экранов до 768px от 390px */
+@media (768px <= width <= 391px) {
+    .modal-content {
+        width: 100%;
+        padding: 15px;
+    }
+    .close {
+        font-size: 24px;
+    }
+    .name-input, .email-input, .number-input, .language-input, .comment-input, .submit-button {
+        font-size: 0.85rem;
+    }
+}
+
+/* Для экранов до 390px */
+@media (390px <= width) {
+
+}
